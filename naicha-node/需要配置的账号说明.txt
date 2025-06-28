@@ -1,0 +1,1 @@
+打开config/config.detault.js文件，里面有每个第三方平台的账号配置说明

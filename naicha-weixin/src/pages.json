@@ -1,0 +1,129 @@
+{
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/customer-service/index",
+			"style": {
+				"navigationBarTitleText": "客服"
+			}
+		},
+		{
+			"path": "pages/personal/index",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationBarBackgroundColor": "#e2eafd"
+			}
+		},
+		{
+			"path": "pages/orders/index",
+			"style": {
+				"navigationBarTitleText": "订单"
+			}
+		},
+		{
+			"path": "pages/order-details/index",
+			"style": {
+				"navigationBarTitleText": "订单详情",
+				"navigationBarBackgroundColor": "#ffffff"
+			}
+		},
+		{
+			"path": "pages/ordersystem/index",
+			"style": {
+				"navigationBarTitleText": "点单",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/payment/index",
+			"style": {
+				"navigationBarTitleText": "确认订单",
+				"navigationBarBackgroundColor": "#ffffff"
+			}
+		},
+		{
+			"path": "pages/select-address/index",
+			"style": {
+				"navigationBarTitleText": "选择收货地址",
+				"navigationBarBackgroundColor": "#ffffff"
+			}
+		},
+		{
+			"path": "pages/add-address/index",
+			"style": {
+				"navigationBarTitleText": "创建收货地址",
+				"navigationBarBackgroundColor": "#ffffff"
+			}
+		},
+		{
+			"path": "pages/upload-wxuser/index",
+			"style": {
+				"navigationBarTitleText": "修改个人资料"
+			}
+		},
+		{
+			"path": "pages/login/index",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/search-products/index",
+			"style": {
+				"navigationBarTitleText": "搜索商品",
+				"navigationBarBackgroundColor": "#ffffff"
+			}
+		},
+		{
+			"path": "pages/specifications/index",
+			"style": {
+				"navigationBarTitleText": "商品详情",
+				"navigationStyle": "custom"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color":"#c4c4c5",
+		"selectedColor":"#1d49c4",
+		"backgroundColor":"#fefefe",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "static/tab/shouye-a.png",
+				"selectedIconPath": "static/tab/shouye-b.png"
+			},
+			{
+				"pagePath": "pages/ordersystem/index",
+				"text": "点单",
+				"iconPath": "static/tab/diandan-a.png",
+				"selectedIconPath": "static/tab/diandan-b.png"
+			},
+			{
+				"pagePath": "pages/orders/index",
+				"text": "订单",
+				"iconPath": "static/tab/dingdan-a.png",
+				"selectedIconPath": "static/tab/dingdan-b.png"
+			},
+			{
+				"pagePath": "pages/personal/index",
+				"text": "我的",
+				"iconPath": "static/tab/wode-a.png",
+				"selectedIconPath": "static/tab/wode-b.png"
+			}
+		]
+	}
+}

@@ -1,0 +1,48 @@
+{
+  "name": "naicha-node",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "egg": {
+    "declarations": true
+  },
+  "dependencies": {
+    "ali-oss": "^6.18.1",
+    "axios": "^1.6.2",
+    "basic-auth": "^2.0.1",
+    "decimal.js": "^10.4.3",
+    "egg": "^3.17.5",
+    "egg-cors": "^2.2.3",
+    "egg-mongoose": "^4.0.1",
+    "egg-onerror": "^2.2.0",
+    "egg-scripts": "2",
+    "egg-socket.io": "^4.1.6",
+    "egg-validate": "^2.0.2",
+    "jsonwebtoken": "^9.0.2",
+    "moment": "^2.29.4"
+  },
+  "devDependencies": {
+    "egg-bin": "6",
+    "egg-mock": "5",
+    "egg-ts-helper": "^2.1.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "start": "egg-scripts start --sticky --daemon --title=egg-server-naicha-node",
+    "stop": "egg-scripts stop --title=egg-server-naicha-node",
+    "dev": "egg-bin dev --sticky",
+    "test": "npm run lint -- --fix && npm run test:local",
+    "test-local": "egg-bin test",
+    "cov": "egg-bin cov",
+    "lint": "eslint .",
+    "ci": "npm run lint && npm run cov"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "",
+  "license": "MIT"
+}
